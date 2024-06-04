@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    height: 100vh; /* Set the height of the container to viewport height */
+    background-image: url("C:/Users/Karishma/Desktop/intern/wt1.html/up.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll; /* Allow background scrolling */
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  .navigation ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navigation h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .navigation p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0;
+  }
+  .heading span{
+
+      color: #b5651d;
+    
+  }
+  .heading:hover  {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+  .navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s, color 0.3s;
+    
+  }
+ 
+  /* CSS code for the "add to cart" button */

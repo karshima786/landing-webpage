@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .menu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-item {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .menu-item img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .menu-item h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .menu-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("C:/Users/Karishma/Desktop/intern/wt1.html/coffeeimg.jpeg");
+    background-size: cover;
+  }
+  .btn {
+    background-color: #8B4513;; /* Set the background color to brown */
+    color: white;            /* Set the text color to white */
+    padding: 10px 20px;      /* Add some padding for better appearance */
+    border: none;            /* Remove the default border */
+    border-radius: 3px;      /* Add rounded corners */
+    text-align: center;      /* Center the text */
+    text-decoration: none;   /* Remove underline from the text */
+    display: inline-block;   /* Make the element inline-block */
+    font-size: 16px;         /* Set the font size */
+    cursor: pointer;         /* Change cursor to pointer on hover */
+  }
+  
+  /* Optional: Add a hover effect */
+  .btn:hover {
+    background-color: brown; /* Darken the background color on hover */
+  }
+  .price {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .price span {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+  }
+  .back-button {
+    display: block;
+    margin: 2em auto;
+    padding: 0.75em 1.5em;
+    background-color: #d2691e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+  .back-button:hover {
+    background-color: brown;
+  }
